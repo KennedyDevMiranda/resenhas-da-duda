@@ -8,7 +8,7 @@
 /* CONFIGURAÇÕES GERAIS */
 body {
     font-family: 'EB Garamond', serif;
-    background-color: #3e2b23;
+    background-color: #f7f5f0;
     color: #333;
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ body {
 
 .site-nav a {
     text-decoration: none;
-    color: #f2d6a2;
+    color: #4b3b2a;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -81,7 +81,7 @@ body {
 
 /* BLOCO DE RESENHA */
 .resenha {
-    background-color: #5a4237;
+    background-color: #fff;
     padding: 20px;
     border: 1px solid #e0d7c9;
     border-radius: 10px;
