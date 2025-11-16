@@ -23,7 +23,7 @@ body {
 /* CABEÇALHO / BANNER */
 .site-header {
     position: relative;
-    background-image: url('img/topo.jpg');
+    background-image: url('img/topo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
