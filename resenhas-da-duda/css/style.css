@@ -200,3 +200,15 @@ body {
         font-size: 2.2rem;
     }
 }
+
+/* ANIMAÇÃO SUAVE DO BANNER */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
