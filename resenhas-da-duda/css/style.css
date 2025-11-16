@@ -20,33 +20,47 @@ body {
     padding: 20px 0;
 }
 
-/* CABEÇALHO */
+/* CABEÇALHO / BANNER */
 .site-header {
-    background-color: #4b342c;   /* marrom médio, como madeira da estante */
-    padding: 30px 0;
+    position: relative;
+    background-image: url('img/topo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 360px;                 /* banner mais alto, cara de vitrine */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #2a1c17;
+}
+
+/* caixa escura em cima da imagem */
+.hero-box {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 30px;
+    border-radius: 12px;
     text-align: center;
-    border-bottom: 1px solid #2a1c17; /* linha bem escura */
+    animation: fadeIn 1.4s ease-in-out;
 }
 
+/* texto brilhante */
 .site-header h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     margin-bottom: 10px;
+    color: #f9e8c8;
+    text-shadow: 0 0 10px #000000aa;
 }
 
-.tagline {
-    font-size: 1.2rem;
-    color: #d8c7b8;              /* tom mais suave para subtítulo */
+.site-header .tagline {
+    font-size: 1.4rem;
+    color: #f5dbc2;
+    text-shadow: 0 0 8px #000000aa;
     margin-bottom: 8px;
 }
 
-.credits {
-    font-size: 0.9rem;
-    color: #e8d8c8;              /* texto de crédito ainda mais clarinho */
-}
-
-.credits a {
-    color: #f2d6a2;              /* dourado quente das velas */
-    text-decoration: none;
+.site-header .credits {
+    font-size: 0.95rem;
+    color: #e8d8c8;
 }
 
 /* MENU */
